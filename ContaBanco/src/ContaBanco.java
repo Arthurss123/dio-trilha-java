@@ -15,7 +15,7 @@ public class ContaBanco {
     System.out.println("Digite o numero da sua conta");
     String numeroConta = scanner.next();
 
-    float saldo = 237.48;
+    double saldo = 237.48;
 
     System.out.println("Olá " + nomeCompleto + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + ", conta " + numeroConta + " " + "e seu saldo" + saldo + " " + "já esta disponivel para saque." );
 
